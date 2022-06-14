@@ -1,0 +1,6 @@
+numbers = list(input("Enter a sequence of values: ").split(", "))
+sum = 0
+print(numbers)
+for number in numbers:
+    sum += int(number)
+print(sum)
